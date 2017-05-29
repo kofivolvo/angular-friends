@@ -278,13 +278,13 @@ When doing this you can walk down objects using dot notation.
           <img class="profile-pic" ng-src='{{friend.pic_square}}'>
           <h3>{{friend.name}}</h3>
           <div class="location">
-              Location: {{friend.location.city}}, {{friend.location.state}}, {{friend.location.country}},
+              Location: {{friends.location.city}}, {{friends.location.state}}, {{friends.location.country}},
           </div>
           <div class="status">
-              Status: {{friend.status.message}}
+              Status: {{friends.status.message}}
           </div>
           <div class="num-friends">
-              Friends: {{friend.friend_count}}
+              Friends: {{friends.friend_count}}
           </div>
       </li>
   </ul>
